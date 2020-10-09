@@ -2,7 +2,7 @@
 
   <!-- This is an A11y Change role-->
   <div class="page-area" role="main" id="content">
-
+      <pb-breadcrumbs></pb-breadcrumbs>
       <!-- This is a Semantic HTML Change -->
       <pb-article class="text-box" >
       <h1>Stay on trackzz</h1>
@@ -34,9 +34,9 @@
       <!-- This is a Semantic HTML Change -->
       <pb-article class="text-box">
           <h1>Free</h1>
-          <div>
-              <!-- <graph></graph> -->
-          </div>
+          <div #graphcontainer id="graph"></div>
+
+
       </pb-article>
 
       <!-- This is a Semantic HTML Change -->
@@ -68,12 +68,13 @@
       </pb-article>
 
       <!-- This is a Semantic HTML Change -->
-      <pb-article class="text-box">
+      <article class="text-box">
           <h1>Free</h1>
           <div>
               <canvas id="myChart" width="400" height="400"></canvas>
           </div>
-        </pb-article>
+
+        </article>
 
   </div>
 
